@@ -1,0 +1,23 @@
+/* Define styles for the grid container */
+.product-grid {
+    display: grid;
+    /* Set up a grid with four columns */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; /* Gap between grid items */
+    padding: 16px; /* Padding around the grid container */
+  }
+  
+  /* Define styles for individual grid items */
+  .product-item {
+    border: 1px solid #ccc; /* Border around each item */
+    padding: 8px; /* Padding inside each item */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center align the content */
+    transition: transform 0.3s ease; /* Smooth transform for hover effect */
+  }
+  
+  /* Add hover effect to individual grid items */
+  .product-item:hover {
+    transform: scale(1.05); /* Scale up the item on hover */
+  }
+  

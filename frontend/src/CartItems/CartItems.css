@@ -1,0 +1,164 @@
+/* Cart items container */
+.cartitems {
+  margin: 100px 170px;
+  color: #db9090; /* Bright text color */
+  background-color: #121212; /* Dark background color */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Horizontal rule styling */
+.cartitems hr {
+  height: 1px;
+  background: #2c2c2c;
+  border: 0;
+}
+
+/* Main grid layout for cart items */
+.cartitems-main {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Styling for cart item quantity control */
+.cartitem-quantity {
+    width: 120px; /* Increase the width */
+    height: 40px; /* Adjust the height */
+    border: 2px solid #2c2c2c;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute buttons evenly */
+    padding: 0 10px; /* Add some padding */
+}
+
+.cartitem-quantity button {
+    background-color: #444; /* Dark background color for buttons */
+    color: #f0f0f0; /* Bright text color for buttons */
+    border: none;
+    border-radius: 4px;
+    width: 30px; /* Adjust button width */
+    height: 30px; /* Adjust button height */
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Styling for each cart item */
+.cartitem-format {
+  font-size: 17px;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Styling for remove icon */
+.remove-icon {
+  width: 15px;
+  margin: 0px 40px;
+  cursor: pointer;
+  filter: invert(1); /* Invert colors to make it visible on dark background */
+}
+
+/* Cart total container */
+.cart-total {
+  margin-top: 40px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Heading and paragraph styling for cart total */
+.cart-total h3 {
+  color: #f0f0f0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-total p {
+  color: #f0f0f0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Total breakdown section in cart total */
+.cart-total .total-breakdown {
+  margin-bottom: 20px;
+}
+
+/* Flex display for total breakdown section */
+.cart-total .total-breakdown p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+/* Styling for proceed-to-checkout button */
+.proceed-to-checkout {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Hover effect for proceed-to-checkout button */
+.proceed-to-checkout:hover {
+  background-color: #45a049;
+}
+
+/* Styling for empty cart message */
+.cart-empty {
+  color: #ff7f50; /* Coral color for an elegant and modern look */
+  font-size: 22px; /* Adjusted font size for elegance */
+  font-weight: 500; /* Medium font weight for a sleek appearance */
+  font-family: 'Georgia', serif; /* Use a stylish serif font */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add some padding around the text */
+  text-shadow: 1px 1px 5px rgba(255, 127, 80, 0.5); /* Subtle glow effect */
+  margin-top: 50px; /* Add space above the text */
+}
+
+/* Shipping form */
+.shipping-form {
+  margin-top: 30px; /* Add space above the form */
+  text-align: center; /* Center-align the form */
+  background-color: #333; /* Dark background color */
+  padding: 20px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners */
+  color: #f0f0f0; /* Bright text color */
+}
+
+/* Style for the form inputs */
+.shipping-form input {
+  width: 100%; /* Full-width inputs */
+  margin: 10px 0; /* Margin between inputs */
+  padding: 10px; /* Padding inside inputs */
+  border-radius: 4px; /* Rounded corners */
+  border: none; /* Remove borders */
+  background-color: #444; /* Dark background color for inputs */
+  color: #f0f0f0; /* Bright text color for inputs */
+  font-size: 16px; /* Font size for inputs */
+  text-align: center; /* Center-align the input text */
+}
+.cart-total .total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-total .total-row p {
+  font-size: 20px;
+  font-weight: bold;
+}

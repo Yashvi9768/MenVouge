@@ -1,0 +1,34 @@
+/* ViewOrdersPage.css */
+
+.view-orders-page {
+    /* Set the background color to black */
+    background-color: #000000;
+    color: #FFFFFF; /* Set the text color to white */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #FFFFFF; /* Set the header text color to white */
+    margin-bottom: 20px;
+}
+
+.order-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    background-color: #1A1A1A; /* Dark grey background for each order item */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.order-item div {
+    margin-bottom: 5px;
+}
+
+strong {
+    color: #FFD700; /* Gold color for emphasis */
+}

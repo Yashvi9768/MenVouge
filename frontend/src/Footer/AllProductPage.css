@@ -1,0 +1,41 @@
+/* All Product Page Container */
+.all-product {
+    padding: 40px; /* Padding around the content */
+       margin: auto; /* Center the container */
+    color: #f5f5f5; /* Text color */
+    background-color: #1a1a1a; /* Dark background color */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Heading Styles */
+.all-product h1 {
+    font-size: 2rem; /* Adjust the font size */
+    margin-bottom: 20px; /* Add margin below the heading */
+    color: #db9090; /* Heading color */
+    text-align: center; /* Center the heading */
+    border-bottom: 2px solid #db9090; /* Border at the bottom of the heading */
+    padding-bottom: 10px; /* Padding at the bottom of the heading */
+    font-weight: bold; /* Bold heading */
+}
+
+/* Product List Grid */
+.product-list {
+    display: grid; /* Use CSS grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 20px; /* Space between products */
+    justify-content: center; /* Center the grid */
+}
+
+/* Responsive Grid Layout */
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-list {
+        grid-template-columns: repeat(1, 1fr); /* 1 column on very small screens */
+    }
+}

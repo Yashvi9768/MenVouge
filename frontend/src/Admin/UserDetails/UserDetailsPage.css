@@ -1,0 +1,57 @@
+/* UserDetailsPage.css */
+
+.user-details-page {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Bright yellow for the heading */
+}
+
+ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333; /* Dark gray background for list items */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+li span {
+    display: block; /* Stack each user detail */
+    color: #ffcc00; /* Bright yellow for user details */
+}
+
+li:hover {
+    background-color: #444; /* Slightly brighter on hover */
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Bright green color for buttons */
+    color: white; /* White text on the button */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.button:active {
+    background-color: #388e3c; /* Even darker green on click */
+}

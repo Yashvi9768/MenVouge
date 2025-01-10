@@ -1,0 +1,43 @@
+/* Contact Us Container */
+.contact {
+    padding: 40px; /* Padding around the content */
+    max-width: 800px; /* Limit the width for readability */
+    color: #f5f5f5; /* Text color */
+    margin: auto;
+    background-color: #222; /* Dark background color */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/* Header Styles */
+.contact h1 {
+    font-size: 2rem; /* Adjust the font size */
+    margin-bottom: 20px; /* Add margin below the heading */
+    color: #db9090; /* Heading color */
+    text-align: center; /* Center the heading */
+    border-bottom: 2px solid #db9090; /* Border at the bottom of the heading */
+    padding-bottom: 10px; /* Padding at the bottom of the heading */
+    font-weight: bold; /* Bold heading */
+}
+
+/* Text Styles */
+.contact p {
+    font-size: 1rem; /* Adjust the font size */
+    line-height: 1.5; /* Line spacing for readability */
+    margin-bottom: 20px; /* Add margin below the text */
+    color: #f5f5f5; /* Text color */
+}
+
+/* Contact Details Styles */
+.contact-details p {
+    font-size: 1rem; /* Adjust the font size */
+    line-height: 1.5; /* Line spacing for readability */
+    margin-bottom: 10px; /* Add margin below each contact detail */
+    color: #f5f5f5; /* Text color */
+}
+
+.contact-details p strong {
+    color: #db9090; /* Highlighted color for strong text */
+}

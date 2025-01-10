@@ -1,0 +1,32 @@
+/* Brands.css */
+
+/* Container for the brand items */
+.brand {
+    display: flex; /* Display items in a row */
+    flex-wrap: wrap; /* Wrap items to a new row if necessary */
+    justify-content: center; /* Center the items */
+    gap: 20px; /* Space between each item */
+    padding: 20px; /* Padding around the container */
+}
+
+/* Style for each brand item */
+.brand-item {
+    width: 120px; /* Width of each item */
+    height: 120px; /* Height of each item */
+    border-radius: 10px; /* Rounded corners for each item */
+    overflow: hidden; /* Hide overflow for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transformation on hover */
+}
+
+/* Hover effect for brand items */
+.brand-item:hover {
+    transform: scale(1.05); /* Slightly scale the item on hover */
+}
+
+/* Styling for the images */
+.brand-item img {
+    width: 100%; /* Ensure the image covers the entire item */
+    height: 100%; /* Ensure the image covers the entire item */
+    object-fit: cover; /* Maintain aspect ratio while filling the item */
+}

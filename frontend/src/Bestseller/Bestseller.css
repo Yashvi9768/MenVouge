@@ -1,0 +1,43 @@
+/* Bestseller Heading */
+.bestseller h1 {
+  color: #DEB887;
+  display: flex;
+  justify-content: center;
+  font-size: 28px; /* Increase font size */
+  font-weight: bold; /* Increase font weight */
+  padding: 20px; /* Add padding */
+  text-transform: uppercase; /* Add text transformation */
+  letter-spacing: 1.5px; /* Add letter spacing */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Item Container */
+.item-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  gap: 20px; /* Adjust gap between items */
+  padding: 10px; /* Add padding */
+  background-color:#111; /* Add background color */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+/* Item Styling */
+.item-img > div {
+  border: 2px solid #DEB887; /* Add border */
+  padding: 10px;
+  border-radius: 8px; /* Add rounded corners */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add transition for hover effects */
+}
+
+.item-img > div:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Add shadow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .item-img {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+}

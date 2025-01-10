@@ -1,0 +1,64 @@
+/* ProductsView.css */
+
+.products-view {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative; /* For positioning the add product button */
+}
+
+.products-view h2 {
+    text-align: center;
+    font-size: 28px; /* Bigger font size for the product title */
+    margin-bottom: 20px;
+}
+
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.products-table th, .products-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+.products-table th {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+.products-table td {
+    background-color: #444;
+}
+
+.product-image {
+    width: 50px; /* Resizing image */
+    height: 50px; /* Resizing image */
+    border-radius: 5px;
+}
+
+.add-product-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.add-product-button:hover {
+    background-color: #ff9900;
+}
+
+.add-product-button:active {
+    background-color: #ff6600;
+}
