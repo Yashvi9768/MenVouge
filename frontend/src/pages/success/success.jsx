@@ -1,26 +1,14 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import "./success.css"; // Optional styling
+import React from 'react';
+import './success.css'; // Add styles for the success page
 
 const SuccessPage = () => {
-  const navigate = useNavigate();
-
-  return (
-    <div className="success-page">
-      <div className="success-container">
-        <h1 className="success-title">Success!</h1>
-        <p className="success-message">
-          Your transaction was completed successfully. Thank you for using our service!
-        </p>
-        <button 
-          className="success-button" 
-          onClick={() => navigate("/")}
-        >
-          Go to Home
-        </button>
-      </div>
-    </div>
-  );
+    return (
+        <div className="success-page">
+            <h1>Payment Successful!</h1>
+            <p>Thank you for your order. Your payment has been successfully processed.</p>
+            <a href="/" className="go-home">Go to Homepage</a>
+        </div>
+    );
 };
 
 export default SuccessPage;
